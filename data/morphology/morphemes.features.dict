@@ -1,0 +1,15 @@
+<noun-s> :[stem:+, cat:n, subcat:? , head: [agr : ?]];
+
+<M-VPRS> :
+ [stem:+ 
+  ,cat: v
+  ,subcat:?
+  ,head : [agr : ?
+           ,vform : [tense: ?
+                     ,aspect: [perfect:?
+                               ,gerund:?
+                               ,sub_imp:?
+                              ]
+                   ]
+          ]
+];

@@ -1,0 +1,325 @@
+<adj-main>     : [stem:+, cat:a, core:-, agr : [person:3 , num:s],pagr : [person:3 , num:s]];
+<adj-main-p>   : [stem:+, cat:a, core:-, agr : [person:3 , num:p], pagr : [person:3 , num:s p]];
+<adj-main-p-l> : [stem:+, cat:a, core:-, agr : [person:3 , num:p], pagr : [person:3 , num:s p]];
+<adj-main-p-n> : [stem:+, cat:a, core:-, agr : [person:3 , num:sp p], pagr : [person:3 , num:s p]];
+
+<noun-main>      : [stem:+, cat:n,   core:?, agr : [person:3 , num:s],   pagr : [person:3 , num:s]];
+<noun-main-z-pa> : [stem:+, cat:n,   core:?, agr : [person:? , num:?]];
+<noun-main-z-pb> : [stem:+, cat:n,   core:?, agr : [person:3 , num:s],   pagr : [person:3 , num:s]];
+<noun-main-p>    : [stem:+, cat:n,   core:?, agr : [person:3 , num:p],   pagr : [person:3 , num:s p]];
+<noun-main-p-l>  : [stem:+, cat:n,   core:?, agr : [person:3 , num:p],   pagr : [person:3 , num:s p]];
+<noun-main-p-n>  : [stem:+, cat:n,   core:?, agr : [person:3 , num:sp p],pagr : [person:3 , num:s p]];
+<noun-main-rc>   : [stem:+, cat:n,   core:?, agr : [person:? , num:?],   pagr : [person:? , num:?], rc:+];
+
+<noun-main-h-z> : [stem:+, cat:n, core:?, agr : [person:? , num:?], pagr : [person:? , num:?]];
+<adj-main-h-z> : [stem:+, cat:a,  core:-, agr : [person:? , num:?], pagr : [person:? , num:?]];
+
+<adj-sup>  :  [<adj-main>, super:+];
+<adj-amb>  :  [<adj-main>, amb:+];
+<adj-dem>  :  [<adj-main>, dem:+];
+<adj-qu>  :   [<adj-main>, qu:+];
+<adj-wow>  :  [<adj-main>, wow:+];
+<pr-main> : [stem:+, cat:pronoun, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<num-car-one>: [stem:+, cat:u, agr : [person:3 , num:s], has_modifier : ?, has_shenase : [person:? , num:?], def: ?, car:+];
+<num-car-l>: [stem:+, cat:u, agr : [person:3 , num:p],pagr : [person:3 , num:s p], has_modifier : ?, has_shenase : [person:? , num:?], def: ?, car:+];
+<num-car-n>: [stem:+, cat:u, agr : [person:3 , num:sp p],pagr : [person:3 , num:s p], has_modifier : ?, has_shenase : [person:? , num:?], def: ?, car:+];
+<num-seq>: [stem:+, cat:u, has_modifier : ?, has_shenase : [person:? , num:?], def: ?, seq:+];
+
+<pr-fs>: [<pr-main>, agr : [person:1 , num:s]];
+<pr-fp>: [<pr-main>, agr : [person:1 , num:p]];
+<pr-ss>: [<pr-main>, agr : [person:2 , num:s]];
+<pr-sp>: [<pr-main>, agr : [person:2 , num:p]];
+<pr-ts>: [<pr-main>, agr : [person:3 , num:s]];
+<pr-tp>: [<pr-main>, agr : [person:3 , num:p]];
+
+<objaux-pr>: [stem: +, cat: objaux, tense:present, negative:?];
+
+<noun-u> : [stem:+, cat:n,   core:?, agr : [person:3 , num:?],   pagr : [person:3 , num:?], def: ?, indef:?, pos : [person:? , num:?], ez_pp:?, shenase : [person:? , num:?] ];
+
+<noun-0000000> : [<noun-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-rc-0000000> : [<noun-main-rc>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-z-0000000-pb> : [<noun-main-z-pb>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<noun-z-0000000-pa> : [<noun-main-z-pa>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<noun-z-rc-0000000> : [<noun-main-rc>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+
+<noun-0000001> : [<noun-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:1 , num:s] ];
+<noun-0000003> : [<noun-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:3 , num:s] ];
+<noun-0000004> : [<noun-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:1 , num:p] ];
+
+<noun-0000007> : [<objaux-pr>, agr : [person:1 , num:s], def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:- , num:-] ];
+<noun-0000009> : [<objaux-pr>, agr : [person:3 , num:s], def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:- , num:-] ];
+
+<noun-0000010> : [<noun-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:aw, shenase : [person:- , num:-] ];
+
+<noun-0000020> : [<noun-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-rc-0000020> : [<noun-main-rc>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-z-0000020-pb> : [<noun-main-z-pb>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<noun-z-0000020-pa> : [<noun-main-z-pa>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<noun-z-rc-0000020> : [<noun-main-rc>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+
+
+<noun-0000100> : [<noun-main>, def: -, indef:-, pos:[person:1 , num:s] ez_pp:-, shenase : [person:- , num:-] ];
+<noun-0000300> : [<noun-main>, def: -, indef:-, pos:[person:3 , num:s] ez_pp:-, shenase : [person:- , num:-] ];
+<noun-0000400> : [<noun-main>, def: -, indef:-, pos:[person:1 , num:p] ez_pp:-, shenase : [person:- , num:-] ];
+<noun-0001000> : [<noun-main>, def: -, indef:e, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-z-0001000> : [<noun-main>, def: -, indef:e, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<noun-0002000> : [<noun-main>, def: -, indef:ek, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-z-0002000> : [<noun-main>, def: -, indef:ek, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+
+<noun-0010000> : [<noun-main>, def: a, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<noun-rc-0010000> : [<noun-main-rc>, def: a, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:? , num:?], rc: +, hp:? ];
+<noun-z-0010000> : [<noun-main-h-z>, def: a, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?], rc:?,  hp:? ];
+
+<noun-0100000-l> : [<noun-main-p-l>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-0100000-n> : [<noun-main-p-n>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-z-0100000-l> : [<noun-main-p-l>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<noun-z-0100000-n> : [<noun-main-p-n>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+
+<noun-0200000-l> : [<noun-main-p-l>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-0200000-n> : [<noun-main-p-n>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<noun-z-0200000-l> : [<noun-main-p-l>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<noun-z-0200000-n> : [<noun-main-p-n>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+
+<noun-0002003> : [<noun-main>, def: -, indef:ek, pos : [person:- , num:-], ez_pp:-, shenase:[person:3 , num:s] ];
+<noun-0002020> : [<noun-main>, def: -, indef:ek, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?] ];
+<noun-0002300> : [<noun-main>, def: -, indef:ek, pos:[person:3 , num:s] ez_pp:-, shenase : [person:- , num:-] ];
+
+<noun-1000000> : [<noun-main>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<noun-rc-1000000> : [<noun-main-rc>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+
+
+<noun-1000001> : [<noun-main>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:1 , num:s], hp:? ];
+<noun-1000003> : [<noun-main>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:3 , num:s], hp:? ];
+<noun-1000020> : [<noun-main>, def: aka, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?] , hp:?];
+<noun-1000100> : [<noun-main>, def: aka, indef:-, pos:[person:1 , num:s], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<noun-1000101> : [<noun-main>, def: aka, indef:-, pos:[person:1 , num:s], ez_pp:-, shenase:[person:1 , num:s], hp:? ];
+<noun-1000300> : [<noun-main>, def: aka, indef:-, pos:[person:3 , num:s], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+
+<noun-1100000-l> : [<noun-main-p-l>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<noun-1100000-n> : [<noun-main-p-n>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] , hp:?];
+<noun-z-1100000-l> : [<noun-main-p-l>, def: aka, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?], hp:?];
+<noun-z-1100000-n> : [<noun-main-p-n>, def: aka, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?], hp:?];
+<noun-1100101> : [<noun-main-p>, def: aka, indef:-, pos:[person:1 , num:s], ez_pp:-, shenase:[person:1 , num:s], hp:? ];
+
+<adj-u> : [stem:+, cat:a,   core:?, agr : [person:3 , num:?],   pagr : [person:3 , num:?], def: ?, indef:?, pos : [person:? , num:?], ez_pp:?, shenase : [person:? , num:?] ];
+
+<adj-0000000> : [ <adj-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<adj-z-0000000> : [<adj-main>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+
+
+<adj-0000001> : [<adj-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:1 , num:s] ];
+<adj-0000003> : [<adj-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:3 , num:s] ];
+<adj-0000004> : [<adj-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:1 , num:p] ];
+
+<adj-0000010> : [<adj-main>, def: -, indef:-, pos : [person:- , num:-], ez_pp:aw, shenase : [person:- , num:-] ];
+<adj-0000020> : [<adj-main>, def: -, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?] ];
+<adj-0000100> : [<adj-main>, def: -, indef:-, pos:[person:1 , num:s] ez_pp:-, shenase : [person:- , num:-] ];
+<adj-0000300> : [<adj-main>, def: -, indef:-, pos:[person:3 , num:s] ez_pp:-, shenase : [person:- , num:-] ];
+<adj-0000400> : [<adj-main>, def: -, indef:-, pos:[person:1 , num:p] ez_pp:-, shenase : [person:- , num:-] ];
+<adj-0001000> : [<adj-main>, def: -, indef:e, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<adj-z-0001000> : [<adj-main>, def: -, indef:e, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<adj-0002000> : [<adj-main>, def: -, indef:ek, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-] ];
+<adj-z-0002000> : [<adj-main>, def: -, indef:ek, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?]];
+<adj-0002003> : [<adj-main>, def: -, indef:ek, pos : [person:- , num:-], ez_pp:-, shenase:[person:3 , num:s] ];
+<adj-0002020> : [<adj-main>, def: -, indef:ek, pos : [person:? , num:?], ez_pp:ez, shenase : [person:- , num:-] ];
+<adj-0002300> : [<adj-main>, def: -, indef:ek, pos:[person:3 , num:s] ez_pp:-, shenase : [person:- , num:-] ];
+
+
+
+<adj-1000000> : [<adj-main>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<adj-1000001> : [<adj-main>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:1 , num:s], hp:? ];
+<adj-1000003> : [<adj-main>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase:[person:3 , num:s] , hp:?];
+<adj-1000020> : [<adj-main>, def: aka, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?], hp:? ];
+<adj-1000100> : [<adj-main>, def: aka, indef:-, pos:[person:1 , num:s], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<adj-1000101> : [<adj-main>, def: aka, indef:-, pos:[person:1 , num:s], ez_pp:-, shenase:[person:1 , num:s], hp:? ];
+<adj-1000300> : [<adj-main>, def: aka, indef:-, pos:[person:3 , num:s], ez_pp:-, shenase : [person:- , num:-] , hp:?];
+
+<adj-1100000-l> : [<adj-main-p-l>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<adj-1100000-n> : [<adj-main-p-n>, def: aka, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<adj-z-1100000-l> : [<adj-main-p-l>, def: aka, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?], hp:?];
+<adj-z-1100000-n> : [<adj-main-p-n>, def: aka, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?], hp:?];
+<adj-1100101> : [<adj-main-p>, def: aka, indef:-, pos:[person:1 , num:s], ez_pp:-, shenase:[person:1 , num:s], hp:? ];
+
+
+<adj-0010000> : [<adj-main>, def: a, indef:-, pos : [person:- , num:-], ez_pp:-, shenase : [person:- , num:-], hp:? ];
+<adj-z-0010000> : [<adj-main-h-z>, def: a, indef:-, pos : [person:? , num:?], ez_pp:ez, shenase : [person:? , num:?], hp:? ];
+
+
+
+<adverb> : [stem:+, cat:ad];
+
+<verb-main> : [stem:+, cat:v];
+
+<Vu> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:?
+		       ,far:?
+		       ,gerund:?
+		       ,perfect:?
+		      ]
+	     ]
+   ,<verb-main>, agr : [person:? , num:?] , 	     
+  ];
+
+<V1-1-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:e
+		       ,far:-
+		       ,gerund:-
+		       ,perfect:-
+		      ]
+	     ]
+  ];
+
+<V1-1> : [<verb-main>, agr : [person:? , num:?] , <V1-1-gen>];
+<V1-1fs> : [<verb-main>, agr : [person:1 , num:s], <V1-1-gen>];
+<V1-1ts> : [<verb-main>, agr : [person:3 , num:s sp], <V1-1-gen>];
+<V1-1fp> : [<verb-main>, agr : [person:1 , num:p], <V1-1-gen>];
+<V1-1tp> : [<verb-main>, agr : [person:3 , num:p], <V1-1-gen>];
+
+<V1-1ts-c> : [<verb-main>, agr : [person:3 , num:s sp], <V1-1-gen>, voice:+];
+  
+
+<V1-2-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:e
+		       ,far:-
+		       ,gerund:+
+		       ,perfect:?
+		      ]
+	     ,iv: b
+	     ,iverb:?
+	     ]
+  ];
+<V1-2fs> : [<verb-main>, agr : [person:1 , num:s], <V1-2-gen>];
+<V1-2ts> : [<verb-main>, agr : [person:3 , num:s sp], <V1-2-gen>];
+
+<V1-3-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:e
+		       ,far:-
+		       ,gerund:-
+		       ,perfect:+
+		      ]
+	     ]
+  ];
+<V1-3fs> : [<verb-main>, agr : [person:1 , num:s], <V1-3-gen>];
+<V1-3ts> : [<verb-main>, agr : [person:3 , num:s sp], <V1-3-gen>];
+
+<V1-4-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:e
+		       ,far:+
+		       ,gerund:-
+		       ,perfect:-
+		      ]
+	     ]
+  ];
+<V1-4fs> : [<verb-main>, agr : [person:1 , num:s], <V1-4-gen>];
+<V1-4ts> : [<verb-main>, agr : [person:3 , num:s sp], <V1-4-gen>];
+
+
+<V1-5-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:s
+		       ,far:-
+		       ,gerund:-
+		       ,perfect:-
+		      ]
+	     ]
+  ];
+<V1-5fs> : [<verb-main>, agr : [person:1 , num:s], <V1-5-gen>];
+<V1-5ts> : [<verb-main>, agr : [person:3 , num:s sp], <V1-5-gen>];
+
+<V1-6-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:s
+		       ,far:-
+		       ,gerund:+
+		       ,perfect:-
+		      ]
+	     ,iv: a c
+	     ,iverb:?
+	     ]
+  ];
+<V1-6fs> : [<verb-main>, agr : [person:1 , num:s sp], <V1-6-gen>];
+
+<V1-7-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:s
+		       ,far:-
+		       ,gerund:-
+		       ,perfect:+
+		      ]
+	     ]
+  ];
+<V1-7fs> : [<verb-main>, agr : [person:1 , num:s], <V1-7-gen>];
+<V1-7ts> : [<verb-main>, agr : [person:3 , num:s sp], <V1-7-gen>];
+
+<V1-8-gen> :
+  [vform :  [tense: past
+	     ,negative : ?
+	     ,aspect: [mood:s
+		       ,far:+
+		       ,gerund:-
+		       ,perfect:-
+		      ]
+	     ]
+  ];
+<V1-8fs> : [<verb-main>, agr : [person:1 , num:s], <V1-8-gen>];
+<V1-8ts> : [<verb-main>, agr : [person:3 , num:s sp], <V1-8-gen>];
+
+<V2-1-gen> :
+  [vform :  [tense: present
+	     ,negative : ?
+	     ,aspect: [mood:e
+		       ,far:-
+		       ,gerund:+
+		       ,perfect:-
+		      ]
+	     ,iv: b
+	     ,iverb:?
+	     ]
+  ];
+<V2-1fs> : [<verb-main>, agr : [person:1 , num:s], <V2-1-gen>];
+<V2-1ts> : [<verb-main>, agr : [person:3 , num:s sp], <V2-1-gen>];
+<V2-1fp> : [<verb-main>, agr : [person:1 , num:p] , <V2-1-gen>];
+
+
+<V2-2-gen> :
+  [vform :  [tense: present
+	     ,negative : ?
+	     ,aspect: [mood:s
+		       ,far:-
+		       ,gerund:-
+		       ,perfect:-
+		      ]
+    	     ,iv: a c
+	     ,iverb:?
+]
+  ];
+<V2-2fs> : [<verb-main>, agr : [person:1 , num:s], <V2-2-gen>];
+<V2-2ts> : [<verb-main>, agr : [person:3 , num:s sp], <V2-2-gen>];
+
+
+<V3-gen> :
+  [vform :  [tense: present
+	     ,negative : ?
+	     ,aspect: [mood:a
+		       ,far:-
+		       ,gerund:-
+		       ,perfect:-
+		      ]
+	     ]
+  ];
+<V3ss> : [<verb-main>, agr : [person:2 , num:s], <V3-gen>];
+
+

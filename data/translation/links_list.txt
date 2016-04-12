@@ -1,0 +1,44 @@
+S*i : S%;
+
+Pgfb : P;
+Pg*b : P;
+Pg*bp : P;
+
+PPf : PP;
+
+I*d:I;
+Ix:I;
+If:I;
+
+Pv: P;
+
+
+
+
+
+
+Ss*w : S;
+O*n : O;
+Ox : O;
+O*t : Ot%;
+SX : S;
+S**w : S%;
+
+d^ : ANL%;
+^  : ANL%;
+Js : J;
+
+
+Dmc : NONE;
+Dmu : NONE;
+Ds  : NONE;
+Dsu : NONE;
+
+CO*n : CO;
+CO*s : CO;
+Em : E;
+MVp : MV%;
+MVa : MV%;
+
+SFs:SF%;
+SFsi:SF%;

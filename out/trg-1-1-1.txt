@@ -1,0 +1,19 @@
+Translation:psrhay khvb rftnd 
+
+   +-----S----+
+   +--PB-+    |
+   |     |    |
+psrhay khvb rftnd 
+
+
+ Features:
+
+
+ psrhay:
+ [ sub: z , stem: + , cat: n , core: ? , agr: [ person: 3 , num: p ] , pagr: [ person: 3 , num: {s , p} ] , def: - , indef: - , pos: [ person: - , num: - ] , ez_pp: ez , shenase: [ person: - , num: - ] ]
+
+ khvb:
+ [ sub: a , stem: + , cat: a , core: - , agr: [ person: 3 , num: s ] , pagr: [ person: 3 , num: s ] , def: - , indef: - , pos: [ person: - , num: - ] , ez_pp: - , shenase: [ person: - , num: - ] ]
+
+ rftnd:
+ [ stem: + , cat: v , agr: [ person: 3 , num: p ] , vform: [ tense: past , negative: ? , aspect: [ mood: e , far: - , gerund: - , perfect: - ] ] ]

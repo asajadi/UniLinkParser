@@ -1,0 +1,147 @@
+# depslib dependency file v1.0
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/analyze-linkage.c
+	<stdarg.h>
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/and.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/api-example.c
+	"link-includes.h"
+
+1309291886 source:/home/armin/Desktop/UniLink1.0b/src/api.c
+	"link-includes.h"
+
+1309283030 source:/home/armin/Desktop/UniLink1.0b/src/build-disjuncts.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/command-line.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/constituents.c
+	<stdarg.h>
+	"link-includes.h"
+	"constituents.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/count.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/error.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<stdarg.h>
+	"error.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/extract-links.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/fast-match.c
+	"link-includes.h"
+
+1309291874 source:/home/armin/Desktop/UniLink1.0b/src/feature-sets.c
+	"link-includes.h"
+
+1309291869 source:/home/armin/Desktop/UniLink1.0b/src/hash-set.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/idiom.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/linkset.c
+	"link-includes.h"
+	<memory.h>
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/mapping_unit.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/massage.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/morpho_analyzer.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/morpho_synth_fa.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/post-process.c
+	<stdarg.h>
+	<memory.h>
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/pp_knowledge.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/pp_lexer.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<io.h>
+	<stdlib.h>
+	<stdarg.h>
+	"link-includes.h"
+	<stdlib.h>
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/pp_linkset.c
+	<memory.h>
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/preparation.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/print-util.c
+	<stdarg.h>
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/print.c
+	<stdarg.h>
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/prune.c
+	"link-includes.h"
+
+1309283007 source:/home/armin/Desktop/UniLink1.0b/src/read-dict.c
+	"link-includes.h"
+
+1309291844 source:/home/armin/Desktop/UniLink1.0b/src/read-feature.c
+	"link-includes.h"
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<stdarg.h>
+	"error.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/resources.c
+	"link-includes.h"
+	<time.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<unistd.h>
+	<sys/syscall.h>
+
+1309189001 source:/home/armin/Desktop/UniLink1.0b/src/string-set.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/tokenize.c
+	"link-includes.h"
+
+1309104903 source:/home/armin/Desktop/UniLink1.0b/src/utilities.c
+	"link-includes.h"
+
+1309282988 source:/home/armin/Desktop/UniLink1.0b/src/word-file.c
+	"link-includes.h"
+
+1309291755 source:/home/armin/Desktop/UniLink1.0b/src/mapping-unit.c
+	"link-includes.h"
+
+1309291758 source:/home/armin/Desktop/UniLink1.0b/src/morpho-synth-fa.c
+	"link-includes.h"
+
+1309291858 source:/home/armin/Desktop/UniLink1.0b/src/morpho-analyzer.c
+	"link-includes.h"
+
+1309291835 source:/home/armin/Desktop/UniLink1.0b/src/uni-api.c
+	"link-includes.h"
+

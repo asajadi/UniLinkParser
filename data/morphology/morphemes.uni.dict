@@ -1,0 +1,7 @@
+G : <head vform aspect gerund> = +, <subcat> = ING-WORDS;
+P : <head vform tense> = past, <subcat> = ED-WORDS ;
+TP: <head vform tense> = present, <subcat> = S-WORDS.v, <head agr> = 3s ;
+PL : <head agr> = 3p, <subcat> = S-WORDS.n;
+
+Hv : <head> = <head> , <cat> = <cat>, <subcat> = <subcat> , <sem> = <sem>;
+H : <head> = <head> , <cat> = <cat>, <subcat> = <subcat>;

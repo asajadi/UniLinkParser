@@ -1,0 +1,1 @@
+ahmadi kori rfeghi nawi chai[scat:q] 

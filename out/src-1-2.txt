@@ -1,0 +1,18 @@
+
+    +------S------+
+    |       +--E--+
+    |       |     |
+korgal.n khas.d choon 
+
+
+ Features:
+
+
+ korgal.n:
+ [ sub: n , stem: + , cat: n , core: ? , agr: [ person: 3 , num: p ] , pagr: [ person: 3 , num: {s , p} ] , def: - , indef: - , pos: [ person: - , num: - ] , ez_pp: - , shenase: [ person: - , num: - ] ]
+
+ khas.d:
+ [ sub: d , stem: + , cat: ad ]
+
+ choon:
+ [ stem: + , cat: v , agr: [ person: 3 , num: p ] , vform: [ tense: past , negative: ? , aspect: [ mood: e , far: - , gerund: - , perfect: - ] ] ]

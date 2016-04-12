@@ -1,0 +1,7 @@
+/words/words.v.6.1 : |[<M-VPRS>]| (G+ or P+ or TP+) & Hv-;
+/words/words.n.1 /words/words.n.4:|[<noun-s>]| PL+ & H-;
+s.n : PL-;
+s.v : TP-;
+ing : G-;
+ed : P-;
+head.m[head:?, cat:?, subcat:?, sem:?]: H+; 

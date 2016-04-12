@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UniLink1.0b" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/UniLink1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-t" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/UniLink1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/analyze-linkage.h" />
+		<Unit filename="include/and.h" />
+		<Unit filename="include/api-structures.h" />
+		<Unit filename="include/api.h" />
+		<Unit filename="include/build-disjuncts.h" />
+		<Unit filename="include/command-line.h" />
+		<Unit filename="include/constituents.h" />
+		<Unit filename="include/count.h" />
+		<Unit filename="include/error.h" />
+		<Unit filename="include/externs.h" />
+		<Unit filename="include/extract-links.h" />
+		<Unit filename="include/fast-match.h" />
+		<Unit filename="include/feature-sets.h" />
+		<Unit filename="include/hash-set.h" />
+		<Unit filename="include/idiom.h" />
+		<Unit filename="include/link-includes.h" />
+		<Unit filename="include/linkset.h" />
+		<Unit filename="include/mapping-unit.h" />
+		<Unit filename="include/massage.h" />
+		<Unit filename="include/morpho-analyzer.h" />
+		<Unit filename="include/morpho-synth-fa.h" />
+		<Unit filename="include/phrase-parse.h" />
+		<Unit filename="include/post-process.h" />
+		<Unit filename="include/pp_knowledge.h" />
+		<Unit filename="include/pp_lexer.h" />
+		<Unit filename="include/pp_linkset.h" />
+		<Unit filename="include/preparation.h" />
+		<Unit filename="include/print-util.h" />
+		<Unit filename="include/print.h" />
+		<Unit filename="include/prune.h" />
+		<Unit filename="include/read-dict.h" />
+		<Unit filename="include/read-feature.h" />
+		<Unit filename="include/resources.h" />
+		<Unit filename="include/string-set.h" />
+		<Unit filename="include/structures.h" />
+		<Unit filename="include/tokenize.h" />
+		<Unit filename="include/trans-structs.h" />
+		<Unit filename="include/utilities.h" />
+		<Unit filename="include/word-file.h" />
+		<Unit filename="src/analyze-linkage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/and.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/build-disjuncts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/command-line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/constituents.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/count.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/extract-links.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fast-match.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/feature-sets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/hash-set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/idiom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/linkset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mapping-unit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/massage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/morpho-analyzer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/morpho-synth-fa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/post-process.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pp_knowledge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pp_lexer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pp_linkset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/preparation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/print-util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/print.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/prune.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/read-dict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/read-feature.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/resources.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/string-set.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tokenize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/trans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/utilities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/word-file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion>
+				<search_path add="src" />
+				<search_path add="include" />
+			</code_completion>
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

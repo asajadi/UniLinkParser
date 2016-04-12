@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include/analyze-linkage.h" open="0" top="0" tabpos="0">
+		<Cursor position="1373" topLine="0" />
+	</File>
+	<File name="include/api-structures.h" open="0" top="0" tabpos="10">
+		<Cursor position="9973" topLine="217" />
+	</File>
+	<File name="include/api.h" open="0" top="0" tabpos="0">
+		<Cursor position="7316" topLine="109" />
+	</File>
+	<File name="include/error.h" open="0" top="0" tabpos="0">
+		<Cursor position="1032" topLine="0" />
+	</File>
+	<File name="include/feature-sets.h" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="include/hash-set.h" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="include/idiom.h" open="0" top="0" tabpos="0">
+		<Cursor position="1104" topLine="0" />
+	</File>
+	<File name="include/link-includes.h" open="0" top="0" tabpos="1">
+		<Cursor position="1743" topLine="48" />
+	</File>
+	<File name="include/mapping-unit.h" open="0" top="0" tabpos="1">
+		<Cursor position="123" topLine="0" />
+	</File>
+	<File name="include/morpho-analyzer.h" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="include/morpho-synth-fa.h" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="include/post-process.h" open="0" top="0" tabpos="0">
+		<Cursor position="1160" topLine="0" />
+	</File>
+	<File name="include/pp_knowledge.h" open="0" top="0" tabpos="0">
+		<Cursor position="997" topLine="0" />
+	</File>
+	<File name="include/pp_lexer.h" open="0" top="0" tabpos="0">
+		<Cursor position="997" topLine="0" />
+	</File>
+	<File name="include/preparation.h" open="0" top="0" tabpos="0">
+		<Cursor position="1327" topLine="3" />
+	</File>
+	<File name="include/prune.h" open="0" top="0" tabpos="0">
+		<Cursor position="1429" topLine="4" />
+	</File>
+	<File name="include/read-dict.h" open="0" top="0" tabpos="0">
+		<Cursor position="1944" topLine="0" />
+	</File>
+	<File name="include/read-feature.h" open="0" top="0" tabpos="1">
+		<Cursor position="701" topLine="0" />
+	</File>
+	<File name="include/string-set.h" open="0" top="0" tabpos="0">
+		<Cursor position="1250" topLine="0" />
+	</File>
+	<File name="include/structures.h" open="0" top="0" tabpos="0">
+		<Cursor position="9388" topLine="241" />
+	</File>
+	<File name="include/trans-structs.h" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="src/analyze-linkage.c" open="0" top="0" tabpos="0">
+		<Cursor position="18923" topLine="627" />
+	</File>
+	<File name="src/api.c" open="0" top="0" tabpos="0">
+		<Cursor position="21967" topLine="701" />
+	</File>
+	<File name="src/build-disjuncts.c" open="0" top="0" tabpos="0">
+		<Cursor position="7864" topLine="274" />
+	</File>
+	<File name="src/extract-links.c" open="0" top="0" tabpos="0">
+		<Cursor position="18417" topLine="544" />
+	</File>
+	<File name="src/feature-sets.c" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="src/hash-set.c" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="src/idiom.c" open="0" top="0" tabpos="0">
+		<Cursor position="1902" topLine="40" />
+	</File>
+	<File name="src/mapping-unit.c" open="0" top="0" tabpos="2">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="src/morpho-analyzer.c" open="0" top="0" tabpos="3">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="src/morpho-synth-fa.c" open="0" top="0" tabpos="4">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="src/post-process.c" open="0" top="0" tabpos="5">
+		<Cursor position="28358" topLine="815" />
+	</File>
+	<File name="src/pp_knowledge.c" open="0" top="0" tabpos="0">
+		<Cursor position="11988" topLine="297" />
+	</File>
+	<File name="src/pp_lexer.c" open="0" top="0" tabpos="6">
+		<Cursor position="20963" topLine="1760" />
+	</File>
+	<File name="src/preparation.c" open="0" top="0" tabpos="0">
+		<Cursor position="13640" topLine="394" />
+	</File>
+	<File name="src/print.c" open="0" top="0" tabpos="0">
+		<Cursor position="15694" topLine="493" />
+	</File>
+	<File name="src/prune.c" open="0" top="0" tabpos="0">
+		<Cursor position="32649" topLine="1048" />
+	</File>
+	<File name="src/read-dict.c" open="0" top="0" tabpos="7">
+		<Cursor position="15509" topLine="510" />
+	</File>
+	<File name="src/read-feature.c" open="0" top="0" tabpos="2">
+		<Cursor position="2608" topLine="86" />
+	</File>
+	<File name="src/string-set.c" open="0" top="0" tabpos="0">
+		<Cursor position="3436" topLine="72" />
+	</File>
+	<File name="src/tokenize.c" open="0" top="0" tabpos="0">
+		<Cursor position="21040" topLine="609" />
+	</File>
+	<File name="src/utilities.c" open="0" top="0" tabpos="0">
+		<Cursor position="2614" topLine="64" />
+	</File>
+	<File name="src/word-file.c" open="0" top="0" tabpos="0">
+		<Cursor position="1583" topLine="20" />
+	</File>
+</CodeBlocks_layout_file>

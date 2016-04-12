@@ -1,0 +1,17 @@
+a: B+ & A+;
+b: B- & C+;
+c: C-;
+d: A- & E+ & D+;
+e: E- & F+;
+f: F- & D-;
+
+
+%this is for testing multiple link managements, how they are numbered and refered
+l: Q+;
+m o p q : {X-} & {M+};
+n: X+;
+r : @M- & Q- & N+;
+s: O+;
+t: N+;
+u: N- & O- & N- & P+;
+v: P-;

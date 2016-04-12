@@ -1,0 +1,276 @@
+<noun-main> : [stem:+, cat:n, verb:[vform: [aspect: [sub-imp: ?]]] , fun:?, has_modifier : ?, det : [def: ? , det:?]];
+<aux-main> : [stem:+, cat:aux, verb:? , sem:?];
+<verb-main> : [stem:+, cat:v, verb:?, particle:?];
+<pr-main> : [stem:+, cat:pronoun, verb:[vform: [aspect: [sub-imp: ?]]] ];
+<wh-main> : [stem:+, cat:wh-words, verb:? , head:[agr:?] ];
+
+<pr-fs>: [<pr-main>, head:[agr:1s]];
+<pr-fp>: [<pr-main>, head:[agr:1p]];
+<pr-ss>: [<pr-main>, head:[agr:2s]];
+<pr-sp>: [<pr-main>, head:[agr:2p]];
+<pr-ts>: [<pr-main>, head:[agr:3s]];
+<pr-tp>: [<pr-main>, head:[agr:3p]];
+
+<noun-1>: [<noun-main>, head:[agr:3s]];
+<noun-2-s>: [<noun-main>, head:[agr:3p]];
+<noun-2-x>: [<noun-main>, head:[agr:3p]];
+<noun-3>: [<noun-main>, head:[agr:3s]];
+<noun-4>: [<noun-main>, head:[agr:3s]];
+<noun-p>: [<noun-main>, head:[agr:3s]];
+<noun-t>: [<noun-main>, head:[agr:3s]];
+
+<the> : [head:[agr:3s 3p], mass:?];
+<a> :   [head:[agr:3s], mass:-];
+<who>: [<wh-main>];
+<what>: [<wh-main>];
+
+<VPRS> :
+ [<verb-main> 
+  ,head : [agr : 1s 2s 1p 2p 3p
+           ,vform : [tense: present
+                     ,negative : ?
+                     ,aspect: [perfect:?
+                               ,gerund:?
+                               ,sub-imp:?
+                               ,voice : ?
+                              ]
+                   ]
+          ]
+];
+<VPRSs> :
+ [<verb-main> 
+  ,head : [agr : 3s
+	  ,vform : [tense: present
+		   ,aspect: [perfect:?
+	  		     ,gerund:?
+		             ,sub-imp:?
+                             ,voice : ?
+		            ] 
+		   ]
+	  ]
+ ];
+<VPTS> :
+ [<verb-main> 
+  ,head : [agr : ?
+	  ,vform : [tense: past
+		   ,aspect: [perfect:?
+		             ,gerund:?
+		             ,sub-imp:?
+                             ,voice : ?
+		  ]
+		]
+	 ]
+ ];
+
+<VPP> :
+ [<verb-main> 
+  ,head : [agr : ?
+	   ,vform : [tense: past
+		     ,aspect: [perfect:+
+			       ,gerund:?
+			       ,sub-imp:?
+                               ,voice : ?
+	 	   	      ]
+  		    ]
+	  ]
+ ];
+
+<VG> : 
+ [<verb-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: past
+		      ,aspect: [perfect:?
+			        ,gerund:+
+  		                ,sub-imp:?
+                                ,voice : ?
+		               ]
+	             ]
+	   ]
+ ];
+
+
+<am> : 
+ [<aux-main> 
+   ,head : [agr : 1s
+	    ,vform : [tense: present
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<is> : 
+ [<aux-main> 
+   ,head : [agr : 3s
+   	    ,negative : ?
+	    ,vform : [tense: present
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<are> : 
+ [<aux-main> 
+   ,head : [agr : 2s 1p 2p 3p
+	    ,vform : [tense: present
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<was> : 
+ [<aux-main> 
+   ,head : [agr : 1s 3s
+	    ,vform : [tense: past
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<were> : 
+ [<aux-main> 
+   ,head : [agr : 2s 1p 2p 3p
+	    ,vform : [tense: past
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<will> : 
+ [<aux-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: future
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<can> : 
+ [<aux-main> 
+   ,head : [agr : ?
+   	    ,negative : ?
+	    ,vform : [tense: present
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+		      ,aux : can         
+	   ]
+ ];
+<could> : 
+ [<aux-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: past
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+		      ,aux : can         
+	   ]
+ ];
+<must> : 
+ [<aux-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: present
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+		      ,aux : must         
+	   ]
+ ];
+
+<have> : 
+ [<aux-main> 
+   ,head : [agr : 1s 2s 1p 2p 3p
+	    ,vform : [tense: present
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<has> : 
+ [<aux-main> 
+   ,head : [agr : 3s
+	    ,vform : [tense: present
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<had> : 
+ [<aux-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: past
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+<be> : 
+ [<aux-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: past
+		      ,aspect: [perfect:?
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+<been> : 
+ [<aux-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: past
+		      ,aspect: [perfect:+
+		         	,gerund:?
+		               ]
+  		     ]
+	   ]
+ ];
+
+<do> : 
+ [<aux-main> 
+   ,head : [agr : 1s 2s 1p 2p 3p
+   	    ,negative : ?
+	    ,vform : [tense: present
+		      ,aspect: [perfect:-
+		         	,gerund:-		               ]
+  		     ]
+	   ]
+ ];
+<does> : 
+ [<aux-main> 
+   ,head : [agr : 3s
+   	    ,negative : ?
+	    ,vform : [tense: present
+		      ,aspect: [perfect:-
+		         	,gerund:-		               ]
+  		     ]
+	   ]
+ ];
+
+<did> : 
+ [<aux-main> 
+   ,head : [agr : ?
+	    ,vform : [tense: past
+		      ,aspect: [perfect:-
+		         	,gerund:-		               ]
+  		     ]
+	   ]
+ ];

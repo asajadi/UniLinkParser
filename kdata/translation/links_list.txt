@@ -1,0 +1,24 @@
+OV: S%;
+Os: O%;
+Op: O%;
+MVp: MV%;	
+Ep:E%;
+COp: CO%;
+IVa:IV%;
+IVb:IV%;
+IVc:IV%;
+
+RBA:RB%;
+RBB:RB%;
+RBC:RB%;
+RBD:RB%;
+PAp:PA%;
+PAH:PA%;
+PAHl:PA%;
+PAHn:PA%;
+PAHr:PA%;
+PBH:PB%;
+PBHl:PB%;
+PBHn:PB%;
+PBHr:PB%;
+

@@ -1,0 +1,331 @@
+
+%*****************
+%Noun Phrase
+%*****************
+
+dana metr kilo top: RBA+;
+
+am aw: |[sub:r, <adj-dem>]| RDa+;
+kam :  |[<adj-qu>]|  RDb+;
+ajaw : |[<adj-wow>]| RDb+;
+
+<noun-pre>:   ((RBA- or RBB- or RBC- or ()) & {RDb-} ) or RBD-;
+<noun-h-pre>: ((RBA- or RBB- or RBC- or ()) & {RD-} );
+<noun-pre-pda>: ((RBA- or RBB- or RBC- or ()) & RDa- );
+
+<noun-pre-rc-l>:   ((RBA- or RBB- or RBC- or ()) & RCl- & {RDb-} );
+<noun-pre-rc-pda-l>:   ((RBA- or RBB- or RBC- or ()) & RCl- & RDa- );
+<noun-pre-rc-n>:   ((RBA- or RBB- or RBC- or ()) & RCn- & {RDb-} );
+<noun-pre-rc-pda-n>:   ((RBA- or RBB- or RBC- or ()) & RCn- & RDa- );
+<noun-h-pre-rc-l>: ((RBA- or RBB- or RBC- or ()) & RCl- & {RD-} );
+<noun-h-pre-rc-pda-l>: ((RBA- or RBB- or RBC- or ()) & RCl- & RDa- );
+<noun-h-pre-rc-n>: ((RBA- or RBB- or RBC- or ()) & RCn- & {RD-} );
+<noun-h-pre-rc-pda-n>: ((RBA- or RBB- or RBC- or ()) & RCn- & RDa- );
+
+
+<noun-g>:(J- & {[[Mp+]]}) or ({[Mp+]} & (S+ or O+ or OV+)) or (IOa+ & {[[Mp+]]}) or (IOb- & {[[Mp+]]});
+
+<noun-post>: PA+ or PB+;
+
+<noun>: <noun-pre> & (<noun-g> or PA- or PC- or PCZ-); 
+<noun-rc-l>: <noun-pre-rc-l> & (<noun-g> or PA- or PC- or PCZ-); 
+<noun-rc-n>: <noun-pre-rc-n> & (<noun-g> or PA- or PC- or PCZ-); 
+
+
+
+<noun-z>: <noun-pre> & ((<noun-post> & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+));
+<noun-z-pb>: <noun-pre> & ((PB+ & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+));
+<noun-z-pa>: (<noun-pre> & ((PAp+ & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+)))
+             or (<noun-pre-pda> & ((PADp+ & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+)));
+<noun-z-rc-l>: (<noun-pre-rc-l> & ((<noun-post> & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+)))
+               or (<noun-pre-rc-pda-l> & ((PAD+ & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+)));
+<noun-z-rc-n>: (<noun-pre-rc-n> & ((<noun-post> & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+)))
+               or (<noun-pre-rc-pda-n> & ((PAD+ & (<noun-g> or PA- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+)));
+
+<noun-d>: <noun-pre> & (<noun-g> or PA- or PAH- or PAD- or PC- or PCZ-);
+<noun-d-p-l>: <noun-pre> & (<noun-g> or PA- or PAHl- or PAD- or PC- or PCZ-);
+<noun-d-p-n>: <noun-pre> & (<noun-g> or PA- or PAHn- or PAD- or PC- or PCZ-);
+<noun-d-rc-l>: <noun-pre-rc-l> & (<noun-g> or PA- or PC- or PAD- or PCZ-);
+<noun-d-rc-n>: <noun-pre-rc-n> & (<noun-g> or PA- or PC- or PAD- or PCZ-);
+
+
+<noun-d-z-post>: PC+;
+
+<noun-d-z>: <noun-pre> & ( (<noun-d-z-post> & (<noun-g> or PA- or PAH- or PAD- or PC- or PCZ-)) or (PA- & PCZ+) or ((PC- or PCZ-) & PCZ+) );
+<noun-d-z-p-l>: <noun-pre> & ( (<noun-d-z-post> & (<noun-g> or PA- or PAHl- or PAD- or PC- or PCZ-)) or (PA- & PCZ+) or ((PC- or PCZ-) & PCZ+) );
+<noun-d-z-p-n>: <noun-pre> & ( (<noun-d-z-post> & (<noun-g> or PA- or PAHn- or PAD- or PC- or PCZ-)) or (PA- & PCZ+) or ((PC- or PCZ-) & PCZ+) );
+<noun-d-z-rc-l>: <noun-pre-rc-l> & ( (<noun-d-z-post> & (<noun-g> or PA- or PAD- or PC- or PCZ-)) or (PA- & PCZ+) or ((PC- or PCZ-) & PCZ+) );
+<noun-d-z-rc-n>: <noun-pre-rc-n> & ( (<noun-d-z-post> & (<noun-g> or PA- or PAD- or PC- or PCZ-)) or (PA- & PCZ+) or ((PC- or PCZ-) & PCZ+) );
+
+<noun-sp-g>: {[Mp+]} & Op+; %shakem has
+<noun-sp>: <noun-pre> & (<noun-sp-g> or PA- or PC- or PCZ-);
+<noun-d-sp>: <noun-pre> & (<noun-sp-g> or PA- or PAH- or PAD- or PC- or PCZ-);
+
+
+
+<noun-h-post-l>:  PAHl+ or PBHl+;
+<noun-h-post-n>:  PAHn+ or PBHn+;
+<noun-h-rc-post>: PAHr+ or PBHr+;
+
+
+<noun-h>:  (<noun-h-pre> &(<noun-g> or PA- or PC- or PCZ-  or PAD-)) or PAH-;
+<noun-h-rc-l>:  <noun-h-pre-rc-l> &(<noun-g> or PA- or PC- or PCZ- or PAD-);
+<noun-h-rc-n>:  <noun-h-pre-rc-n> &(<noun-g> or PA- or PC- or PCZ- or PAD-);
+
+<noun-h-z-l>: (<noun-h-pre> & (<noun-h-post-l> & (<noun-g> or PA- or PAD- or PC- or PCZ-))) or (<noun-h-pre-rc-l> & (<noun-h-rc-post> & (<noun-g> or PA- or PAD- or PC- or PCZ-))) or ((PAHl- or PAD-)   & PBHZl+) or (PAHr- & PBHZr+);
+<noun-h-z-n>: (<noun-h-pre> & (<noun-h-post-n> & (<noun-g> or PA- or PAD- or PC- or PCZ-))) or (<noun-h-pre-rc-n> & (<noun-h-rc-post> & (<noun-g> or PA- or PAD- or PC- or PCZ-))) or ((PAHn- or PAD-)   & PBHZn+) or (PAHr- & PBHZr+);
+
+%The following macros are defined to handle unknown words
+<noun-pre-u>:  ((RBA- or RBB- or RBC- or ()) & {RC-} & {RD-} ) or RBD-;
+<noun-g-u>:(J- & {[[Mp+]]}) or ({[Mp+]} & (S+ or O+ or OV+)) or (IOa+ & {[[Mp+]]}) or (IOb- & {[[Mp+]]});
+<noun-post-u>: PA+ or PB+ or PADp+ or PAH+ or PBH+ or ();
+<noun-u>: <noun-pre-u> & ((<noun-post-u> & (<noun-g> or PA- or PAH- or PAD- or PC- or PCZ-)) or (PA- & (PBZ+ or PCZ+ )) or ((PC- or PCZ-) & PCZ+)) or ((PAH- or PAD-) & PBHZ+);
+
+
+
+<adj-z>: (PB- or PBZ-) & (PBZ+ or PCZ+);
+<adj>: (PB- or PBZ-);
+<adj-d>: (PBH- or PBHZ-) ;
+<adj-d-p-l>: (PBHl- or PBHZl-) ;
+<adj-d-p-n>: (PBHn- or PBHZn-) ;
+<adj-d-z>: (PBH- or PBHZ-) & PCZ+;
+<adj-d-z-p-l>: (PBHl- or PBHZl-) & PCZ+;
+<adj-d-z-p-n>: (PBHn- or PBHZn-) & PCZ+;
+<adj-h>: PBH- or PBHZ-;
+<adj-h-z>: ((PBHl- or PBHZl-) & PBHZl+) or ((PBHn- or PBHZn-) & PBHZn+);
+<adj-sp>: <adj>;
+<adj-d-sp>: (PBH- or PBHZ-);
+<adj-u>: (PB- or PBZ- or PBH- or PBHZ-) & (PBZ+ or PCZ+ or PBHZ+ or ());
+
+%*****************
+<objaux>: OV-;
+<aux>:  Om- & S- ;
+<obj aux>: OV-;
+nia [cat: aux,  agr : [person:3 , num:s]] : <aux>;
+nim [cat: aux, agr : [person:1 , num:s]] : <aux>;
+
+ama[<pr-ts>, type: dem]: <noun>;
+
+men[<pr-fs>]: <noun>;
+to[<pr-ss>]: <noun>;
+aw[sub:p, <pr-ts>]: <noun>;
+ema[<pr-fp>]: <noun>;
+
+
+<verb-it>: {@E-} & S- & {@CO-} & {@MV+};
+<verb-it-iv>: ({@E-} & S- & {@CO-} & {@MV+}) or ({@E-} & IV- & {@E-} &  S- & {@CO-} & {@MV+}) or ({@E-} & S- & {@CO-} & IV- & {@CO-} & {@MV+});
+
+<verb-c>: <verb-it>;
+
+
+<verb-t-pr>: {@E-} & Os- & {@E-} & S- & {@CO-} & {@MV+};
+
+<verb-t-p>: {@E-} & Op- & {@E-} & S- & {@CO-} & {@MV+};
+
+<prep>: ((MVp- or Mp-) & J+) or (J+ & (Ep+ or COp+ or IOa+)) ;
+
+la bo ba be: <prep> ;
+
+<verb-it-ic>: ({@E-} & S- & {@CO-} &  {@MV+} & IOb+ & {@MV+}) or ({@E-} & IOa- & {@E-} & S- & {@CO-} &  {@MV+});
+<verb-t-ic-pr>: ({@E-} & Os- & {@E-} & S- & {@CO-} &  {@MV+} & IOb+ & {@MV+}) or ({@E-} & IOa- & {@E-} & Os- & {@E-} & S- & {@CO-} &  {@MV+});
+<verb-t-ic-p>: ({@E-} & Op- & {@E-} & S- & {@CO-} &  {@MV+} & IOb+ & {@MV+}) or ({@E-} & IOa- & {@E-} & Op- & {@E-} & S- & {@CO-} &  {@MV+});
+
+<verb-u>: <verb-it> or <verb-t-p> or <verb-t-pr>;
+
+
+<adverb>: MV- or CO+ or E+;
+
+%*************************************************************************
+%Words
+
+%*************************************************************************
+
+dabe  [vform: [tense: present ,negative : ?,aspect: [mood:e,far:-,gerund:-,perfect:-]]]: IVa+;
+daboo [vform: [tense: past ,negative : ?,aspect: [mood:e,far:-,gerund:-,perfect:-]]]: IVa+;
+
+kharikem   [<verb-main>, sem: kharikem,   agr : [person:1 , num:s], vform: [tense: present, negative : ?,aspect: [mood:e,far:-,gerund:-,perfect:-]]]:  IVb+;
+kharikboom [<verb-main>, sem: kharikboom, agr : [person:1 , num:s], vform: [tense: past ,   negative : ?,aspect: [mood:e,far:-,gerund:-,perfect:-]]]:  IVb+;
+atwanem    [<verb-main>, sem: twanem,     agr : [person:1 , num:s], vform: [tense: present, negative : ?,aspect: [mood:e,far:-,gerund:+,perfect:-]]]: IVc+;
+betwanem   [<verb-main>, sem: betwanem ,  agr : [person:1 , num:s], vform: [tense: present, negative : ?,aspect: [mood:s,far:-,gerund:-,perfect:-]]]: IVc+;
+amtwani    [<verb-main>, sem: amtwani,    agr : [person:1 , num:s], vform: [tense: past ,   negative : ?,aspect: [mood:e,far:-,gerund:+,perfect:-]]]: IVc+;
+bemtwanai  [<verb-main>, sem: bemtwanai,  agr : [person:1 , num:s], vform: [tense: past ,   negative : ?,aspect: [mood:s,far:-,gerund:-,perfect:-]]]: IVc+;
+twaniooma  [<verb-main>, sem: twaniooma,  agr : [person:1 , num:s], vform: [tense: past ,   negative : ?,aspect: [mood:e,far:-,gerund:-,perfect:+]]]: IVc+;
+amwe       [<verb-main>, sem: amwe,       agr : [person:1 , num:s], vform: [tense: present, negative : ?,aspect: [mood:e,far:-,gerund:+,perfect:-]]]: IVc+;
+amwist     [<verb-main>, sem: amwist,     agr : [person:1 , num:s], vform: [tense: past ,   negative : ?,aspect: [mood:e,far:-,gerund:+,perfect:-]]]: IVc+;
+
+
+/words/verbs/words.v.it.1.1.1: |[<V1-1fs>]| <verb-it>;
+/words/verbs/words.v.it.1.1.3: |[<V1-1ts>]| <verb-it>;
+
+/words/verbs/words.v.it.1.1.6: |[<V1-1tp>]| <verb-it>;
+/words/verbs/words.v.t.1.1: |[<V1-1>]| <verb-t-p>;
+/words/verbs/words.v.c.1.1.3: |[<V1-1ts-c>]| <verb-c>;
+
+/words/verbs/words.v.it.1.2.1: |[<V1-2fs>]| <verb-it-iv>;
+/words/verbs/words.v.t.ic.1.2: |[<V1-1>]| <verb-t-ic-p>;
+
+/words/verbs/words.v.it.1.3.1: |[<V1-3fs>]| <verb-it>;
+
+/words/verbs/words.v.it.1.4.1: |[<V1-4fs>]| <verb-it>;
+/words/verbs/words.v.it.1.5.1: |[<V1-5fs>]| <verb-it>;
+/words/verbs/words.v.it.1.6.1: |[<V1-6fs>]| <verb-it-iv>;
+/words/verbs/words.v.it.1.7.1: |[<V1-7fs>]| <verb-it>;
+/words/verbs/words.v.it.1.8.1: |[<V1-8fs>]| <verb-it>;
+
+/words/verbs/words.v.it.2.1.1: |[<V2-1fs>]| <verb-it-iv>;
+/words/verbs/words.v.t.2.1.1: |[<V2-1fs>]|  <verb-t-pr>; 
+/words/verbs/words.v.t.2.1.3: |[<V2-1ts>]| <verb-t-pr>;
+/words/verbs/words.v.t.ic.2.1.4: |[<V2-1fp>]| <verb-t-ic-pr>;
+
+/words/verbs/words.v.it.2.2.1: |[<V2-2fs>]| <verb-it-iv>;
+
+/words/verbs/words.v.it.3: |[<V3ss>]| <verb-it>;
+
+
+
+/words/words.a.s: |[<adj-sup>]| RBB+;
+/words/words.u.1:  |[<num-seq>]| RBC+;
+/words/words.a.am :  |[<adj-amb>]| RBD+;
+yak[<num-car-one>]: RC+;
+/words/words.u.2:  |[sub:l, <num-car-l>]| RCl+;
+/words/words.u.2:  |[sub:n, <num-car-n>]| RCn+;
+
+
+
+
+/words/words.ad: |[<adverb>]| <adverb>;
+/words/adj/words.a.0000000: |[sub:d, <adverb>]| <adverb>;
+
+
+
+/words/nouns/words.n.0000000.l: |[sub:n, <noun-0000000>]| <noun>;
+/words/nouns/words.n.0000000.l: |[sub:r, <noun-rc-0000000>]| <noun-rc-l>;
+/words/nouns/words.n.0000000.n: |[sub:n, <noun-0000000>]| <noun>;
+/words/nouns/words.n.0000000.n: |[sub:r, <noun-rc-0000000>]| <noun-rc-n>;
+
+/words/nouns/words.n.0000000.l: |[sub:a, <noun-z-0000000-pa>]| <noun-z-pa>;
+/words/nouns/words.n.0000000.l: |[sub:b, <noun-z-0000000-pb>]| <noun-z-pb>;
+/words/nouns/words.n.0000000.l: |[sub:c, <noun-z-rc-0000000>]| <noun-z-rc-l>;
+/words/nouns/words.n.0000000.n: |[sub:a, <noun-z-0000000-pa>]| <noun-z-pa>;
+/words/nouns/words.n.0000000.n: |[sub:b, <noun-z-0000000-pb>]| <noun-z-pb>;
+/words/nouns/words.n.0000000.n: |[sub:c, <noun-z-rc-0000000>]| <noun-z-rc-n>;
+
+/words/adj/words.a.0000000: |[sub:n, <noun-0000000>]| <noun-g>;
+/words/adj/words.a.0000000: |[sub:a, <adj-0000000>]| <adj>;
+/words/adj/words.a.0000000: |[sub:z, <adj-z-0000000>]| <adj-z>;
+
+
+/words/nouns/words.n.0000001 :|[sub:s, <noun-0000001>]| <noun-sp>; 
+/words/adj/words.a.0000001 :|[sub:s, <adj-0000001>]| <adj-sp>; 
+
+/words/nouns/words.n.0000003.l :|[sub:s, <noun-0000003>]| <noun-sp>; 
+/words/nouns/words.n.0000003.n :|[sub:s, <noun-0000003>]| <noun-sp>; 
+/words/adj/words.a.0000003 :|[sub:s, <adj-0000003>]| <adj-sp>; 
+
+/words/nouns/words.n.0000004 :|[sub:s, <noun-0000004>]| <noun-sp>; 
+/words/adj/words.a.0000004 :|[sub:s, <adj-0000004>]| <adj-sp>; 
+
+
+/words/nouns/words.n.0000001  : |[sub:x, <noun-0000007>]| <objaux>;
+/words/adj/words.a.0000001  : |[  sub:x, <noun-0000007>]| <objaux>;
+
+/words/nouns/words.n.0000009.l: |[sub:x, <noun-0000009>]| <objaux>;
+/words/nouns/words.n.0000009.n: |[sub:x, <noun-0000009>]| <objaux>;
+
+
+/words/nouns/words.n.0000010:|[<noun-0000010>]| J-; 
+
+/words/nouns/words.n.0000003.l: |[sub:a, <noun-z-0000020-pa>]| <noun-z-pa>;
+/words/nouns/words.n.0000003.l: |[sub:b, <noun-z-0000020-pb>]| <noun-z-pb>;
+/words/nouns/words.n.0000003.l: |[sub:c, <noun-z-rc-0000020>]| <noun-z-rc-l>;
+/words/nouns/words.n.0000003.n: |[sub:a, <noun-z-0000020-pa>]| <noun-z-pa>;
+/words/nouns/words.n.0000003.n: |[sub:b, <noun-z-0000020-pb>]| <noun-z-pb>;
+/words/nouns/words.n.0000003.n: |[sub:c, <noun-z-rc-0000020>]| <noun-z-rc-n>;
+
+
+/words/adj/words.a.0000003 :|[sub:z, <adj-0000020>]| <adj-z>; 
+
+/words/nouns/words.n.0000001 :|[sub:p, <noun-0000100 >]| <noun>; 
+/words/adj/words.a.0000001 :  |[sub:p, <adj-0000100 >]| <adj>; 
+
+/words/nouns/words.n.0000003.l :|[sub:p, <noun-0000300 >]| <noun>; 
+/words/nouns/words.n.0000003.n :|[sub:p, <noun-0000300 >]| <noun>; 
+/words/adj/words.a.0000003 :|[sub:p, <adj-0000300 >]| <adj>; 
+
+/words/nouns/words.n.0000004 :|[sub:p, <noun-0000400 >]| <noun>; 
+/words/adj/words.a.0000004 :|[sub:p, <adj-0000400 >]| <adj>; 
+
+/words/nouns/words.n.0001000: |[sub:n, <noun-0001000>]| <noun>;
+/words/nouns/words.n.0001000: |[sub:z, <noun-z-0001000>]| <noun-z>;
+/words/adj/words.a.0001000: |[sub:a, <adj-0001000>]| <adj>;
+/words/adj/words.a.0001000: |[sub:z, <adj-z-0001000>]| <adj-z>;
+
+/words/nouns/words.n.0002000: |[sub:n, <noun-0002000>]| <noun>;
+/words/nouns/words.n.0002000: |[sub:z, <noun-z-0002000>]| <noun-z>;
+/words/adj/words.a.0002000: |[sub:a, <adj-0002000>]| <adj>;
+/words/adj/words.a.0002000: |[sub:z, <adj-z-0002000>]| <adj-z>;
+
+/words/nouns/words.n.0002003  :|[sub:s, <noun-0002003 >]| <noun-sp>; 
+/words/adj/words.a.0002003  :|[sub:s, <adj-0002003 >]| <adj-sp>; 
+
+/words/nouns/words.n.0002003  :|[sub:z, <noun-0002020 >]| <noun-z>; 
+/words/adj/words.a.0002003  :|[sub:z, <adj-0002020 >]| <adj-z>; 
+
+/words/nouns/words.n.0002003  :|[sub:p, <noun-0002300 >]| <noun>; 
+/words/adj/words.a.0002003  :|[ sub:p, <adj-0002300 >]| <adj>;
+/words/nouns/words.n.0000009.l: |[sub:n, <noun-0010000>]| <noun-h>;
+/words/nouns/words.n.0000009.l: |[sub:r, <noun-rc-0010000>]| <noun-h-rc-l>;
+/words/nouns/words.n.0000009.l: |[sub:z, <noun-z-0010000>]| <noun-h-z-l>;
+/words/nouns/words.n.0000009.n: |[sub:n, <noun-0010000>]| <noun-h>;
+/words/nouns/words.n.0000009.n: |[sub:r, <noun-rc-0010000>]| <noun-h-rc-n>;
+/words/nouns/words.n.0000009.n: |[sub:z, <noun-z-0010000>]| <noun-h-z-n>;
+/words/adj/words.a.0000009: |[sub:a, <adj-0010000>]| <adj-h>;
+/words/adj/words.a.0000009: |[sub:z, <adj-z-0010000>]| <adj-h-z>;
+
+/words/nouns/words.n.0200000.l: |[sub:n, <noun-0200000-l>]| <noun>;
+/words/nouns/words.n.0200000.n: |[sub:n, <noun-0200000-n>]| <noun>;
+/words/nouns/words.n.0200000.l: |[sub:z, <noun-z-0200000-l>]| <noun-z>;
+/words/nouns/words.n.0200000.n: |[sub:z, <noun-z-0200000-n>]| <noun-z>;
+
+
+/words/nouns/words.n.1000000.l: |[sub:n, <noun-1000000>]| <noun-d>;
+/words/nouns/words.n.1000000.l: |[sub:r, <noun-rc-1000000>]| <noun-d-rc-l>;
+/words/nouns/words.n.1000000.n: |[sub:n, <noun-1000000>]| <noun-d>;
+/words/nouns/words.n.1000000.n: |[sub:r, <noun-rc-1000000>]| <noun-d-rc-n>;
+/words/adj/words.a.1000000: |[<adj-1000000>]| <adj-d>;
+
+
+/words/nouns/words.n.1000001 :|[sub:s, <noun-1000001>]| <noun-d-sp>; 
+/words/adj/words.a.1000001 :|[sub:s, <adj-1000001>]| <adj-d-sp>; 
+
+/words/nouns/words.n.1000003 :|[sub:s, <noun-1000003>]| <noun-d-sp>; 
+/words/adj/words.a.1000003 :|[sub:s, <adj-1000003>]| <adj-d-sp>; 
+
+/words/nouns/words.n.1000003 :|[sub:n, <noun-1000300>]| <noun-d>; 
+/words/adj/words.a.1000003 :|[sub:a, <adj-1000300>]| <adj-d>; 
+/words/nouns/words.n.1000003 :|[sub:z, <noun-1000020>]| <noun-d-z>; 
+/words/adj/words.a.1000003 :|[sub:z, <adj-1000020>]| <adj-d-z>; 
+
+/words/nouns/words.n.1000001 :|[sub:n, <noun-1000100>]| <noun-d>; 
+/words/adj/words.a.1000001 :|[sub:n, <adj-1000100>]| <adj-d>; 
+
+/words/nouns/words.n.1000101 :|[<noun-1000101>]| <noun-d-sp>; 
+/words/adj/words.a.1000101 :|[<adj-1000101>]| <adj-d-sp>; 
+
+
+/words/nouns/words.n.1100000.l  :|[sub:n, <noun-1100000-l >]|    <noun-d-p-l>; 
+/words/nouns/words.n.1100000.l  :|[sub:z, <noun-z-1100000-l >]|  <noun-d-z-p-l>; 
+/words/nouns/words.n.1100000.n  :|[sub:n, <noun-1100000-n >]|    <noun-d-p-n>; 
+/words/nouns/words.n.1100000.n  :|[sub:z, <noun-z-1100000-n >]|  <noun-d-z-p-n>; 
+
+/words/adj/words.a.1100000  :|[sub:al, <adj-1100000-l >]|    <adj-d-p-l>; 
+/words/adj/words.a.1100000  :|[sub:zl, <adj-z-1100000-l >]|    <adj-d-z-p-l>; 
+/words/adj/words.a.1100000  :|[sub:an, <adj-1100000-n >]|    <adj-d-p-n>; 
+/words/adj/words.a.1100000  :|[sub:zn, <adj-z-1100000-n >]|    <adj-d-z-p-n>; 
+
+/words/nouns/words.n.1100101 :|[sub:s, <noun-1100101>]| <noun-d-sp>; 
+/words/adj/words.a.1100101 :|[sub:s, <adj-1100101>]| <adj-d-sp>; 
+
+
+UNKNOWN-WORD.n[<noun-u>]: <noun-u>;
+UNKNOWN-WORD.v[<Vu>]: <verb-u>;

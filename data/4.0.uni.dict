@@ -1,0 +1,34 @@
+S: <head agr> = <head agr>
+   , <verb> = <head>
+   , <verb> = <verb>;
+
+SI: <head agr> = <head agr>
+   , <head> = <verb>
+   , <verb> = <verb>;
+SX: <head agr> = <head agr>
+   , <verb> = <head>
+   , <verb> = <verb>;
+
+PP: <head vform aspect perfect> = +
+    , <head vform aspect gerund> = <head vform aspect gerund>
+   , <verb> = <verb>;
+    
+P : <head vform aspect gerund> = +
+   , <verb> = <verb>;
+	
+I: <head vform aspect gerund> = <head vform aspect gerund>
+   , <head vform aspect perfect> = <head vform aspect perfect>
+   , <verb> = <verb>;
+   
+Pv : + = <head vform aspect voice>
+   , <verb> = <verb>;
+
+D : <det> = <det>;
+R :  <det def> = +;
+
+^ : <root> = <root>;
+d^ : <root> = <root>;
+*^ : <root> = <root>;
+K : <particle> = <sem>;
+Cs:  sub = <verb vform aspect sub-imp>;
+N : <head negative> = +;

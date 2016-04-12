@@ -1,0 +1,1 @@
+ahmad kor.n piaw moalem rfegh kwe[scat:q] raeis ki[scat:q] cha[scat:q]

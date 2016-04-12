@@ -1,0 +1,29 @@
+he [head: [sem: I, agr: 3ps]]:	S+;
+
+gave [ head: [sem: gave, agr: 3ps, ppform: to],SUBJ :?
+                                 ,OBJ: ?
+       				,INDIR_OBJ:? 
+     ]:	S- & Os+ & MVp+;
+
+%the[sem:the] : Ds+;     
+
+
+book [head: [sem: book, agr: 3ps]] : Ds- & Os-;
+to   [cat: to, head: [sem: to], OBJ: ? ]: MVp- & Js+;
+student [head: [sem: student, agr: 3ps]] : Ds- & Js-;
+
+the [sem:the, agr:[person: 3, number:sing pl]] a[sem:a, agr:[person: 3, number:sing]] : D+;
+dog [cat:n, det: ?, agr:[person: 3, number:sing]] snake [cat:n, det: ?, agr: [person: 3, number:sing]] : D- & (O- or S+);
+chased [cat:v, head: [agr: [person: 3, number:sing pl], tense:past]] : S- & O+;
+
+
+
+a: O+ & N+ & M+;
+b: P+;
+c: P- & O- & Q+;
+d: Q- & N-;
+e: M- & @R+;
+f: R-;
+g: R-;
+
+

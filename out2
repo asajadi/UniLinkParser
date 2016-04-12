@@ -1,0 +1,1855 @@
+Reading inout from in.txt...
+   Opening ./data/4.0.dict
+   Opening ./data/4.0.features.dict
+   Opening ./data/4.0.uni.dict
+   Opening ./data/morphology/morphemes.dict
+   Opening ./data/morphology/morphemes.features.dict
+   Opening ./data/morphology/morphemes.uni.dict
+   Opening ./data/words/words.v.6.1
+   Opening ./data/words/words.n.1
+   Opening ./data/words/words.n.4
+   Opening ./data/words/words.n.p
+   Opening ./data/words/words.n.1
+   Opening ./data/words/words.n.2.s
+   Opening ./data/words/words.n.2.x
+   Opening ./data/words/words.n.3
+   Opening ./data/words/words.n.4
+   Opening ./data/words/words.s
+   Opening ./data/words/words.n.t
+   Opening ./data/words/words.y
+   Opening ./data/words/words.v.1.1
+   Opening ./data/words/words.v.1.2
+   Opening ./data/words/words.v.1.3
+   Opening ./data/words/words.v.1.4
+   Opening ./data/words/words.v.5.1
+   Opening ./data/words/words.v.5.2
+   Opening ./data/words/words.v.5.3
+   Opening ./data/words/words.v.5.4
+   Opening ./data/words/words.v.2.1
+   Opening ./data/words/words.v.2.2
+   Opening ./data/words/words.v.2.3
+   Opening ./data/words/words.v.2.4
+   Opening ./data/words/words.v.2.5
+   Opening ./data/words/words.v.6.1
+   Opening ./data/words/words.v.6.2
+   Opening ./data/words/words.v.6.3
+   Opening ./data/words/words.v.6.4
+   Opening ./data/words/words.v.4.1
+   Opening ./data/words/words.v.4.2
+   Opening ./data/words/words.v.4.3
+   Opening ./data/words/words.v.4.4
+   Opening ./data/words/words.v.4.5
+   Opening ./data/words/words.v.8.1
+   Opening ./data/words/words.v.8.2
+   Opening ./data/words/words.v.8.3
+   Opening ./data/words/words.v.8.4
+   Opening ./data/words/words.v.8.5
+   Opening ./data/words/words.v.1.p
+   Opening ./data/words/words.v.10.1
+   Opening ./data/words/words.v.10.2
+   Opening ./data/words/words.v.10.3
+   Opening ./data/words/words.v.10.4
+   Opening ./data/words/words.adj.1
+   Opening ./data/words/words.adj.2
+   Opening ./data/words/words.adj.3
+   Opening ./data/words/words.adv.3
+   Opening ./data/words/words.adv.1
+   Opening ./data/words/words.adv.2
+   Opening ./data/4.0.knowledge
+   Opening ./data/translation/lexicon.txt
+   Opening ./data/translation/mapfile.txt
+   Opening ./data/translation/links_list.txt
+   Opening ./data/target/trg.dict
+   Opening ./data/target/trg.features.dict
+   Opening ./data/target/trg.uni.dict
+
+************************************
+1-a book  has been bought
+
+************************************
+
+Linkage No. 1-1
+
+
+    +--------------------RW-------------------+
+    +----Wd----+                              |
+    |     +-Ds-+--S--+--PPf-+---Pv--+         |
+    |     |    |     |      |       |         |
+LEFT-WALL a book.n has.v been.v bought.v RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ has.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] ]
+
+ been.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , sem: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: + , gerund: ? ] ] ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: + ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 1_1_1
+
+Translation: 
+
+    +--------RW--------+
+    +---Wd--+-S-+      |
+    |       |   |      |
+LEFT-WALL ktab xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ xr:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: + ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+2-he can have gone
+
+************************************
+
+Linkage No. 2-1
+
+
+    +----------------RW---------------+
+    +--Wd--+-S-+--If--+--PP--+        |
+    |      |   |      |      |        |
+LEFT-WALL he can.v have.v gone.v RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ he:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s , negative: ? , aux: can ] , head: [ agr: 3s ] ]
+
+ can.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s , negative: ? , aux: can ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s , negative: ? , aux: can ] ]
+
+ have.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s , negative: ? , aux: can ] , sem: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] ]
+
+ gone.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s , negative: ? , aux: can ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: + , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 2_1_1
+
+Translation: 
+
+    +-------RW-------+
+    +--Wd--+-S+      |
+    |      |  |      |
+LEFT-WALL av rv RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ av:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s , negative: ? , aux: can ] , head: [ agr: 3s ] ]
+
+ rv:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 3s , negative: ? , aux: can ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: + , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+3-he does not go
+
+************************************
+
+Linkage No. 3-1
+
+
+    +--------------RW-------------+
+    |           +---I*d---+       |
+    +--Wd--+--S-+--N-+    |       |
+    |      |    |    |    |       |
+LEFT-WALL he does.v not go.v RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ he:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: - , gerund: - ] , tense: present ] , agr: 3s , negative: + ] , head: [ agr: 3s ] ]
+
+ does.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: - , gerund: - ] , tense: present ] , agr: 3s , negative: + ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: - , gerund: - ] , tense: present ] , agr: 3s , negative: + ] ]
+
+ not:
+ 
+
+ go.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: - , gerund: - ] , tense: present ] , agr: 3s , negative: + ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 3_1_1
+
+Translation: 
+
+    +-------RW-------+
+    +--Wd--+-S+      |
+    |      |  |      |
+LEFT-WALL av rv RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ av:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: - , gerund: - ] , tense: present ] , agr: 3s , negative: + ] , head: [ agr: 3s ] ]
+
+ rv:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: - , gerund: - ] , tense: present ] , agr: 3s , negative: + ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+4-I put my clothes on
+
+************************************
+
+Linkage No. 4-1
+
+
+    +-----------------RW-----------------+
+    |           +--------K--------+      |
+    |           +-----O----+      |      |
+    +--Wd--+-S*i+    +-Dmc-+      |      |
+    |      |    |    |     |      |      |
+LEFT-WALL I.p put.v my clothes.n on RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ put.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: on , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ my:
+ [ det: [ def: ? , sem: my , det: ? ] ]
+
+ clothes.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: my , det: ? ] , head: [ agr: 3p ] ]
+
+ on:
+ [ sem: on ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 4_1_1
+
+Translation: 
+
+    +------------RW-----------+
+    |      +-----S----+       |
+    |      |   +---O--+       |
+    +--Wd--+   +-OM+  |       |
+    |      |   |   |  |       |
+LEFT-WALL mn lbas ra put RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ lbas:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: my , det: ? ] , head: [ agr: 3p ] ]
+
+ ra:
+ 
+
+ put:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: on , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+5-he goes
+
+************************************
+
+Linkage No. 5-1
+
+
+    +---------RW---------+
+    +--Wd--+--S-+        |
+    |      |    |        |
+LEFT-WALL he goes.v RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ he:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , head: [ agr: 3s ] ]
+
+ goes.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 5_1_1
+
+Translation: 
+
+    +-------RW-------+
+    +--Wd--+-S+      |
+    |      |  |      |
+LEFT-WALL av rv RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ av:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , head: [ agr: 3s ] ]
+
+ rv:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+6-I bought the book
+
+************************************
+
+Linkage No. 6-1
+
+
+    +----------------RW----------------+
+    |             +-----O-----+        |
+    +--Wd--+--S*i-+     +--Ds-+        |
+    |      |      |     |     |        |
+LEFT-WALL I.p bought.v the book.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 6_1_1
+
+Translation: 
+
+    +-----------RW-----------+
+    |      +-----S----+      |
+    |      |   +---O--+      |
+    +--Wd--+   +-OM+  |      |
+    |      |   |   |  |      |
+LEFT-WALL mn ktab ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+7-I bought the book from a bookshop in Tehran
+
+************************************
+
+Linkage No. 7-1
+
+
+    +------------------------------RW------------------------------+
+    |             +----------------MVp---------------+             |
+    |             +-------MVp-------+                |             |
+    |             +-----O-----+     +----Js---+      |             |
+    +--Wd--+--S*i-+     +--Ds-+     |  +--Ds--+      +-Js-+        |
+    |      |      |     |     |     |  |      |      |    |        |
+LEFT-WALL I.p bought.v the book.n from a bookshop.n in Tehran RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ from:
+ 
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ bookshop.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ in:
+ 
+
+ Tehran:
+ 
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 7_1_1
+
+Translation: 
+
+    +-----------------------RW-----------------------+
+    |      +-----------------S----------------+      |
+    |      |   +---------------O--------------+      |
+    |      |   |      +-----------MV----------+      |
+    |      |   |      |              +---MV---+      |
+    +--Wd--+   +-OM+  +--Js--+       +-Js+    |      |
+    |      |   |   |  |      |       |   |    |      |
+LEFT-WALL mn ktab ra az ktab-frv^sy dr thran xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ az:
+ 
+
+ ktab-frv^sy:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ dr:
+ 
+
+ thran:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+8-I bought a good physics book 
+
+************************************
+
+Linkage No. 8-1
+
+
+    +------------------------RW-----------------------+
+    |             +-------------O------------+        |
+    |             |    +----------Ds---------+        |
+    |             |    |    +--------A-------+        |
+    +--Wd--+--S*i-+    |    |       +---AN---+        |
+    |      |      |    |    |       |        |        |
+LEFT-WALL I.p bought.v a good.a physics.n book.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ good.a:
+ 
+
+ physics.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , det: ? ] , head: [ agr: 3s ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 8_1_1
+
+Translation: 
+
+    +----------------RW----------------+
+    |      +----------S---------+      |
+    |      |   +--------O-------+      |
+    |      |   +------OM-----+  |      |
+    |      |   +---AN---+    |  |      |
+    +--Wd--+   +-A-+    |    |  |      |
+    |      |   |   |    |    |  |      |
+LEFT-WALL mn ktab xvb fyzyk ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ xvb:
+ 
+
+ fyzyk:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+9-yesterday I quickly bought quickly a book quickly from the bookshop quickly
+
+************************************
+
+Linkage No. 9-1
+
+
+    +----------------------------------------------RW----------------------
+    |                               +-------------------------MVa----------
+    |                               +--------------MVp--------------+      
+    |                               +-----------MVa----------+      |      
+    +-------Wd-------+------S*i-----+-------O*n-------+      |      +-----J
+    |         +-CO*n-+     +---Em---+--MVa--+    +-Ds-+      |      |   +--
+    |         |      |     |        |       |    |    |      |      |   |  
+LEFT-WALL yesterday I.p quickly bought.v quickly a book.n quickly from the 
+
+
+------------------------+
+--------------+         |
+              |         |
+              |         |
+s----+        |         |
+-Ds--+        |         |
+     |        |         |
+bookshop.n quickly RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ yesterday:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ quickly:
+ 
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ quickly:
+ 
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ quickly:
+ 
+
+ from:
+ 
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ bookshop.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ quickly:
+ 
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 9_1_1
+
+Translation: 
+
+    +--------------------------------------RW--------------------------------
+    |            +----------------------------S----------------------------+ 
+    |            |    +-------------------------Em-------------------------+ 
+    |            |    |       +---------------------MV---------------------+ 
+    |            |    |       |      +-----------------O*n-----------------+ 
+    |            |    |       |      |        +-------------MV-------------+ 
+    +-----Wd-----+    |       |      |        |     +----------MV----------+ 
+    |       +CO*n+    |       |      +-OM+    |     +--Js--+         +--MV-+ 
+    |       |    |    |       |      |   |    |     |      |         |     | 
+LEFT-WALL dyrvz mn quickly quickly ktab ra quickly az ktab-frv^sy quickly xr 
+
+
+-----+
+     |
+     |
+     |
+     |
+     |
+     |
+     |
+     |
+RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ dyrvz:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ quickly:
+ 
+
+ quickly:
+ 
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ quickly:
+ 
+
+ az:
+ 
+
+ ktab-frv^sy:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ quickly:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+10-yesterday I fortunately bought the book from the bookshop
+
+************************************
+
+Linkage No. 10-1
+
+
+    +-------------------------------------RW--------------------------------
+    |                                   +-------MVp-------+                 
+    +-------Wd-------+--------S*i-------+-----O-----+     +-----Js----+     
+    |         +-CO*n-+       +-----E----+     +--Ds-+     |   +---Ds--+     
+    |         |      |       |          |     |     |     |   |       |     
+LEFT-WALL yesterday I.p fortunately bought.v the book.n from the bookshop.n 
+
+
+-----+
+     |
+     |
+     |
+     |
+RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ yesterday:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ fortunately:
+ 
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ from:
+ 
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ bookshop.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 10_1_1
+
+Translation: 
+
+    +---------------------------RW--------------------------+
+    |            +-----------------S-----------------+      |
+    |            |     +--------------E--------------+      |
+    |            |     |       +----------O----------+      |
+    +-----Wd-----+     |       |      +------MV------+      |
+    |       +CO*n+     |       +-OM+  +--Js--+       |      |
+    |       |    |     |       |   |  |      |       |      |
+LEFT-WALL dyrvz mn x^sbxtanh ktab ra az ktab-frv^sy xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ dyrvz:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ x^sbxtanh:
+ 
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ az:
+ 
+
+ ktab-frv^sy:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ xr:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+11-he visits me weekly in the library 
+
+************************************
+
+Linkage No. 11-1
+
+
+    +-------------------------RW------------------------+
+    |            +-------MVp-------+                    |
+    |            +----MVa----+     +----Js---+          |
+    +--Wd--+--S--+--Ox-+     |     |  +--Ds--+          |
+    |      |     |     |     |     |  |      |          |
+LEFT-WALL he visits.v me weekly.e in the library.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ he:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , head: [ agr: 3s ] ]
+
+ visits.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] ]
+
+ me:
+ 
+
+ weekly.e:
+ 
+
+ in:
+ 
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ library.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 11_1_1
+
+Translation: 
+
+    +---------------------RW--------------------+
+    |      +--------------S-------------+       |
+    |      |  +------------Ox-----------+       |
+    |      |  |       +--------MV-------+       |
+    |      |  |       |    +-----MV-----+       |
+    +--Wd--+  +OM+    |    +--Js-+      |       |
+    |      |  |  |    |    |     |      |       |
+LEFT-WALL av mn ra haftgy dr ktab-xanh byn RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ av:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , head: [ agr: 3s ] ]
+
+ mn:
+ 
+
+ ra:
+ 
+
+ haftgy:
+ 
+
+ dr:
+ 
+
+ ktab-xanh:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ byn:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: present ] , agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+12-if he has come to the library I  must have seen him
+
+************************************
+
+Linkage No. 12-1
+
+
+    +-------------------------------------RW-------------------------------
+    +--------------------Wd--------------------+                           
+    |      +----------------CO*s---------------+                           
+    |      |                  +----Js---+      |                           
+    |      +Cs+-S-+--PP--+-MVp+  +--Ds--+      +-S*i-+--If--+--PP--+-Ox-+  
+    |      |  |   |      |    |  |      |      |     |      |      |    |  
+LEFT-WALL if he has.v come.v to the library.n I.p must.v have.v seen.v him 
+
+
+-----+
+     |
+     |
+     |
+     |
+     |
+RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ if:
+ 
+
+ he:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: sub , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , head: [ agr: 3s ] ]
+
+ has.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: sub , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: sub , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] ]
+
+ come.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: sub , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: + , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ to:
+ 
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ library.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 1s , aux: must ] , head: [ agr: 1s ] ]
+
+ must.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 1s , aux: must ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 1s , aux: must ] ]
+
+ have.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 1s , aux: must ] , sem: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] ]
+
+ seen.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 1s , aux: must ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: + , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ him:
+ 
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 12_1_1
+
+Translation: 
+
+    +----------------------RW----------------------+
+    +--------------Wd-------------+                |
+    |      +---------CO*s---------+                |
+    |      |   +-------S-------+  +----S---+       |
+    |      |   |  +-----MV-----+  |  +--Ox-+       |
+    |      +-Cs+  +--Js-+      |  |  +OM+  |       |
+    |      |   |  |     |      |  |  |  |  |       |
+LEFT-WALL agr av bh ktab-xanh Ay mn av ra byn RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ agr:
+ 
+
+ av:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: sub , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , head: [ agr: 3s ] ]
+
+ bh:
+ 
+
+ ktab-xanh:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ Ay:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: sub , perfect: + , gerund: ? ] , tense: present ] , agr: 3s ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: + , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 1s , aux: must ] , head: [ agr: 1s ] ]
+
+ av:
+ 
+
+ ra:
+ 
+
+ byn:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: + , gerund: ? ] , tense: present ] , agr: 1s , aux: must ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: + , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+13-the man that I saw was a doctor 
+
+************************************
+
+Linkage No. 13-1
+
+
+    +--------------------------RW--------------------------+
+    |           +-----------S----------+                   |
+    +-----Wd----+--------B-------+     +---O*t---+         |
+    |      +-Ds-+---R--+-Cr-+-S*i+     |   +--Ds-+         |
+    |      |    |      |    |    |     |   |     |         |
+LEFT-WALL the man.n that.r I.p saw.v was.v a doctor.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ the:
+ [ det: [ def: + , sem: the , det: ? ] ]
+
+ man.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , fun: ? , has_modifier: ? , det: [ def: + , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ that.r:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ saw.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ was.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] ]
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ doctor.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 13_1_1
+
+Translation: 
+
+    +----------------RW---------------+
+    |      +---------S--------+       |
+    |      +----B----+        |       |
+    +--Wd--+-R-+Cr+-S+    +-Ot+       |
+    |      |   |  |  |    |   |       |
+LEFT-WALL mrd kh mn dyd dktr bvd RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mrd:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , fun: ? , has_modifier: ? , det: [ def: + , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ kh:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ dyd:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ dktr:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ bvd:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+14-the man I saw was a doctor 
+
+************************************
+
+Linkage No. 14-1
+
+
+    +-----------------------RW----------------------+
+    |           +-------S-------+                   |
+    +-----Wd----+----B----+     +---O*t---+         |
+    |      +-Ds-+-Rn-+-S*i+     |   +--Ds-+         |
+    |      |    |    |    |     |   |     |         |
+LEFT-WALL the man.n I.p saw.v was.v a doctor.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ the:
+ [ det: [ def: + , sem: the , det: ? ] ]
+
+ man.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , fun: ? , has_modifier: ? , det: [ def: + , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ saw.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ was.v:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] ]
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ doctor.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 14_1_1
+
+Translation: 
+
+    +----------------RW---------------+
+    |      +---------S--------+       |
+    |      +----B----+        |       |
+    +--Wd--+-R-+Cr+-S+    +-Ot+       |
+    |      |   |  |  |    |   |       |
+LEFT-WALL mrd kh mn dyd dktr bvd RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mrd:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , fun: ? , has_modifier: ? , det: [ def: + , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ kh:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ dyd:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ dktr:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ bvd:
+ [ stem: + , cat: aux , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] , sem: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? ] , tense: past ] , agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+15-did he buy the book
+
+************************************
+
+Linkage No. 15-1
+
+
+    +-----------------RW-----------------+
+    |       +---I*d--+-----O----+        |
+    +---Qd--+-SI-+   |    +--Ds-+        |
+    |       |    |   |    |     |        |
+LEFT-WALL did.q he buy.v the book.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ did.q:
+ [ stem: + , cat: aux , verb: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , sem: ? , head: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] ]
+
+ he:
+ [ stem: + , cat: pronoun , verb: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , head: [ agr: 3s ] ]
+
+ buy.v:
+ [ stem: + , cat: v , verb: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 15_1_1
+
+Translation: 
+
+    +-------------RW-------------+
+    |          +-----S----+      |
+    |          |   +---O--+      |
+    +--Qd--+-QW+   +-OM+  |      |
+    |      |   |   |   |  |      |
+LEFT-WALL Aya av ktab ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ Aya:
+ [ stem: + , cat: aux , verb: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , sem: ? , head: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] ]
+
+ av:
+ [ stem: + , cat: pronoun , verb: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , head: [ agr: 3s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ agr: 3s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+16-has he bought the book
+
+************************************
+
+Linkage No. 16-1
+
+
+    +-------------------RW------------------+
+    |       +----PP----+-----O-----+        |
+    +---Qd--+-SI-+     |     +--Ds-+        |
+    |       |    |     |     |     |        |
+LEFT-WALL has.q he bought.v the book.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ has.q:
+ [ stem: + , cat: aux , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] , sem: ? , head: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] ]
+
+ he:
+ [ stem: + , cat: pronoun , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] , head: [ agr: 3s ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 16_1_1
+
+Translation: 
+
+    +-------------RW-------------+
+    |          +-----S----+      |
+    |          |   +---O--+      |
+    +--Qd--+-QW+   +-OM+  |      |
+    |      |   |   |   |  |      |
+LEFT-WALL Aya av ktab ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ Aya:
+ [ stem: + , cat: aux , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] , sem: ? , head: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] ]
+
+ av:
+ [ stem: + , cat: pronoun , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] , head: [ agr: 3s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? , sub-imp: ? ] ] ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+17-who has bought the book
+
+************************************
+
+Linkage No. 17-1
+
+
+    +--------------------RW--------------------+
+    |                     +-----O-----+        |
+    +---Ws--+-S**w+---PP--+     +--Ds-+        |
+    |       |     |       |     |     |        |
+LEFT-WALL who.q has.v bought.v the book.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ who.q:
+ [ stem: + , cat: wh-words , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] , head: [ agr: 3s ] ]
+
+ has.v:
+ [ stem: + , cat: aux , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] , sem: ? , head: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 17_1_1
+
+Translation: 
+
+    +--------------RW-------------+
+    |        +------S------+      |
+    |        |      +---O--+      |
+    +---Ws---+      +-OM+  |      |
+    |        |      |   |  |      |
+LEFT-WALL ^ch-ksy ktab ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ ^ch-ksy:
+ [ stem: + , cat: wh-words , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] , head: [ agr: 3s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ agr: 3s , vform: [ tense: present , aspect: [ perfect: + , gerund: ? ] ] ] , particle: ? , head: [ agr: ? , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+18-what did you buy
+
+************************************
+
+Linkage No. 18-1
+
+
+    +----------------RW---------------+
+    |        +------Bsw------+        |
+    |        |     +---I*d---+        |
+    +---Wq---+     +-SIq+    |        |
+    |        |     |    |    |        |
+LEFT-WALL what.q did.q you buy.v RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ what.q:
+ [ stem: + , cat: wh-words , verb: ? , head: [ agr: ? ] ]
+
+ did.q:
+ [ stem: + , cat: aux , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , sem: ? , head: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] ]
+
+ you:
+ [ stem: + , cat: pronoun , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , head: [ agr: 2s ] ]
+
+ buy.v:
+ [ stem: + , cat: v , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 18_1_1
+
+Translation: 
+
+    +------------RW------------+
+    |         +----BO---+      |
+    +----Wq---+--BOM-+  |      |
+    |         |      |  |      |
+LEFT-WALL ^ch-^cyzy ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ ^ch-^cyzy:
+ [ stem: + , cat: wh-words , verb: ? , head: [ agr: ? ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+19-where did you buy the book
+
+************************************
+
+Linkage No. 19-1
+
+
+    +----------------------RW---------------------+
+    |               +---I*d---+-----O----+        |
+    +---Wq---+--WQ--+-SIq+    |    +--Ds-+        |
+    |        |      |    |    |    |     |        |
+LEFT-WALL where.q did.q you buy.v the book.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ where.q:
+ 
+
+ did.q:
+ [ stem: + , cat: aux , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , sem: ? , head: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] ]
+
+ you:
+ [ stem: + , cat: pronoun , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , head: [ agr: 2s ] ]
+
+ buy.v:
+ [ stem: + , cat: v , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 19_1_1
+
+Translation: 
+
+    +------------RW-----------+
+    |      +-----WL----+      |
+    |      |    +---O--+      |
+    +--Wq--+    +-OM+  |      |
+    |      |    |   |  |      |
+LEFT-WALL kJa ktab ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ kJa:
+ 
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ agr: 2s , vform: [ tense: past , aspect: [ perfect: - , gerund: - , sub-imp: ? ] ] ] , particle: ? , head: [ agr: {1s , 2s , 1p , 2p , 3p} , vform: [ tense: present , negative: ? , aspect: [ perfect: - , gerund: - , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+20-I bought  a book and  a pencil
+
+************************************
+
+Linkage No. 20-1
+
+
+    +-----------------------RW----------------------+
+    |             +-------O------+--------+         |
+    +--Wd--+--S*i-+    +-Ds-+----+  +--Ds-+         |
+    |      |      |    |    |    |  |     |         |
+LEFT-WALL I.p bought.v a book.n and a pencil.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ and:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ a:
+ [ det: [ def: ? , sem: a , det: ? ] ]
+
+ pencil.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 20_1_1
+
+Translation: 
+
+    +---------------RW--------------+
+    |      +--------S--------+      |
+    |      |      +-----O----+      |
+    |      |      +---OM--+  |      |
+    +--Wd--+   +AN+ANL+   |  |      |
+    |      |   |  |   |   |  |      |
+LEFT-WALL mn ktab v mdad ra xr RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , head: [ agr: 1s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ v:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ mdad:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: a , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] , particle: ? , head: [ vform: [ aspect: [ sub-imp: ? , perfect: ? , gerund: ? , voice: ? ] , tense: past ] , agr: 1s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+************************************
+21-I bought the book and went to the library
+
+************************************
+
+Linkage No. 21-1
+
+
+    +------------------------------RW------------------------------+
+    |      +----------S*i----------+                               |
+    |      |      +----------------+                               |
+    |      |      +-----O-----+    |          +----Js---+          |
+    +--Wd--+      |     +--Ds-+    +-----+-MVp+  +--Ds--+          |
+    |      |      |     |     |    |     |    |  |      |          |
+LEFT-WALL I.p bought.v the book.n and went.v to the library.n RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ I.p:
+ [ stem: + , cat: pronoun , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , head: [ agr: 1s ] ]
+
+ bought.v:
+ [ stem: + , cat: v , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , particle: ? , head: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ book.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ and:
+ [ stem: + , cat: v , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , particle: ? , head: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ went.v:
+ [ stem: + , cat: v , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , particle: ? , head: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ to:
+ 
+
+ the:
+ [ det: [ def: ? , sem: the , det: ? ] ]
+
+ library.n:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ RIGHT-WALL:
+ 
+
+
+Translation No. 21_1_1
+
+Translation: 
+
+    +--------------------RW--------------------+
+    |      +------S-----+------ANL------+      |
+    |      |   +---O--+ |  +-----MV-----+      |
+    +--Wd--+   +-OM+  +A+  +--Js-+      |      |
+    |      |   |   |  | |  |     |      |      |
+LEFT-WALL mn ktab ra xr v bh ktab-xanh rv RIGHT-WALL 
+
+
+ Features:
+
+
+ LEFT-WALL:
+ 
+
+ mn:
+ [ stem: + , cat: pronoun , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , head: [ agr: 1s ] ]
+
+ ktab:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ ra:
+ 
+
+ xr:
+ [ stem: + , cat: v , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , particle: ? , head: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ v:
+ [ stem: + , cat: v , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , particle: ? , head: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ bh:
+ 
+
+ ktab-xanh:
+ [ stem: + , cat: n , verb: [ vform: [ aspect: [ sub-imp: ? ] ] ] , fun: ? , has_modifier: ? , det: [ def: ? , sem: the , det: ? ] , head: [ agr: 3s ] ]
+
+ rv:
+ [ stem: + , cat: v , verb: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] , particle: ? , head: [ agr: 1s , vform: [ tense: past , aspect: [ perfect: ? , gerund: ? , sub-imp: ? , voice: ? ] ] ] ]
+
+ RIGHT-WALL:
+ 
+
+
+ space in use : 0
+ external space in use : 0
