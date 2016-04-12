@@ -103,7 +103,7 @@ This directory is used by the morphological analyzer, it works exactly like the 
 The exact same word files used for the main dictionary can be used here, but with different rules, for example we have the following rule for /words/words.v.6.1 files (present stems)
 
 
-`
+
 /words/words.v.6.1 : |[<M-VPRS>]| G+; and <M-VPRS> is defined as follows
 <M-VPRS> :
  [stem:+ 
@@ -117,7 +117,7 @@ The exact same word files used for the main dictionary can be used here, but wit
                               ]
                    ]
           ]
-];`
+];
 
 And also we have this rule in the morphemes.uni.dict file, 
 
