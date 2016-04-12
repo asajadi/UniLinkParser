@@ -19,14 +19,14 @@ The  following source files are added to the main package:
   * The main interface of the system
   * To test this module you should rename “MakeFile-trans” to “MakeFile” and  remake
 
-** Building the binaries
+# Building the binaries
 Simply type make, it will create a trans file. 
 
-* Running the System
+## Running the System
 `./parse [options]`
 This results in reading all the sentences in in.txt and get parsed (or translated)
 
-** options: 
+### options: 
 `-t:`	Translate, if not specified, it will just parse the sentence
 `-du:`	Unification will be in effect, if not specified, the feature structures will simply be ignored
 `-a:`	For a sentence, all possible linkages are reported ( or translated)
@@ -45,10 +45,9 @@ is the index of the linkage
                              linkage)
 
 
+# A brief introduction to the knowledge base
 
-* A brief introduction to the knowledge base
-
-** 4.0.dict: 
+## 4.0.dict: 
 A dictionary similar to link grammar dictionary, the only difference is the possibility of adding features to the words, based on the methods described in [1].  The structure of the dictionary is the same, but adding feature structures in Attribute-Value Matrices is also possible and gives more flexibility, the technical explanations can be found in [1], but some highlights of the differences are as follows:
 
 * A word (with the same subscripts) can be defined with two different feature structures and hence two linking requirements, but there should be a feature named "sub" with different values, like:
@@ -95,15 +94,13 @@ And then use it in the dictionary:
 You can use templates wherever features are applicable.
 
 
-** 4.0.uni.dict
+## 4.0.uni.dict
 It contains unification rules exactly the way it is explained in [1]
 Note: If the name of the dictionary is “name.dict”, the name of the “Unification Rules” file should be “name.uni.dict” 
 
-Morphology Directory
+## Morphology Directory
 This directory is used by the morphological analyzer, it works exactly like the normal parser, so it has a dictionary “morphemes.dict” which contains morphemes as words, a feature template file “morphemes.features.dict” and a unification rules file: “morphemes.uni.dict”.
 The exact same word files used for the main dictionary can be used here, but with different rules, for example we have the following rule for /words/words.v.6.1 files (present stems)
-
-
 
 
 `
@@ -128,7 +125,8 @@ And also we have this rule in the morphemes.uni.dict file,
 
 Now, when the parser gets a word like “hunting” which is not found in the dictionary, it decomposes it to hunt+ing, the morphological anyzer apply these rules resulting in a G link between “hunt” and “ing”, this links sets the gerund feature of the word to + and its subcat to ING-WORDS, and returns it to the parser. Then the parser finds the definition for ING-WORDS, unify this feature structure to whatever features ING-WORDS has in the dictionary and uses it for parsing. This process is illustrated in [1]
 
-** Translation Directory
+# Translation Directory
+
 This directory contains three files, 
 1. `lexicon.txt`: its the bilingual dictionary, subscripts can be used to have multiple entries for the same word.
 2. `links list`: This is used to map connector names, for example if Pgfb is going to be treated as a P link while mapping the linkages, we can have this rule: Pgfb : P;
